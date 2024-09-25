@@ -2,3 +2,45 @@
 h1, h2, p {
   text-align: center;
 }
+/* Step 18 
+body {
+  background-color: brown
+} */
+
+/* Step 19 */
+body {
+  /* background-color: burlywood; */   /* Step 22 */
+  /* Step 28 */
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+/* Step 21 */
+/* Step 26: # -> . */
+.menu {
+  width: 80%; /* Step 24: 300px -> 80% */
+  /* Step 23 */
+  background-color: burlywood;
+  /* Step 25 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Step 33 */
+.flavor {
+  text-align: left;
+  width: 49%;  /* Step 38 */   /* Step 39: 38 did not work so change 50% -> 49% */
+}
+
+/* Step 35 */
+.price {
+  text-align: right;
+  width: 49%;  /* Step 38 */   /* Step 39: 38 did not work so change 50% -> 49% */
+}
+
+/* Step 37 */
+.item p {
+  display: inline-block;
+}
+
+
+
