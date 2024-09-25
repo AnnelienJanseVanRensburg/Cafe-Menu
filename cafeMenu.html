@@ -20,11 +20,13 @@ Add the <!DOCTYPE html> tag, and an html element with a lang attribute of en.
     <!-- Step 3
     Inside the head element, nest a meta element with an attribute named charset set to the value utf-8 to tell the browser how to encode characters for the page.
     -->
+    <!-- Step 17 -->
     <meta charset="utf-8">
     <title>Cafe Menu</title>
     <!-- Step 10
     Up until now, you have been limited regarding the presentation and appearance of the content you create. To start taking control, add a style element within the head element.
     -->
+    <!--
     <style>
     /* Step 11
     You can add style to an element by specifying it in the style element and setting a property for it like this:
@@ -57,7 +59,15 @@ Add the <!DOCTYPE html> tag, and an html element with a lang attribute of en.
         text-align: center;
       }
       
-    </style>
+    </style> -->
+    <!-- Step 15
+    Now that you have the CSS in the styles.css file, go ahead and remove the style element and all its content. Once it is removed, the text that was centered will shift back to the left.
+    -->
+
+    <!-- Step 16
+    Now you need to link the styles.css file, so the styles will be applied again. Inside the head element, add a link element. Give it a rel attribute with the value of "stylesheet" and a href attribute with the value of "styles.css".
+    -->
+    <link rel="stylesheet" href="styles.css">
   </head>
   <!-- Step 4
   To prepare to create some actual content, add a body element below the head element.
